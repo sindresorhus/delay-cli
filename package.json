@@ -1,6 +1,6 @@
 {
 	"name": "delay-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Delay execution for a given amount of seconds",
 	"license": "MIT",
 	"repository": "sindresorhus/delay-cli",
