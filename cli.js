@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const delay = require('delay');
 
 const cli = meow(`
 	Usage
@@ -22,6 +21,4 @@ if (seconds === undefined) {
 	process.exit(1);
 }
 
-(async () => {
-	await delay(seconds * 1000);
-})();
+setTimeout(() => {}, seconds * 1000);

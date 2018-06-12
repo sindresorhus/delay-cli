@@ -33,7 +33,6 @@
 		"seconds"
 	],
 	"dependencies": {
-		"delay": "^2.0.0",
 		"meow": "^4.0.0"
 	},
 	"devDependencies": {
