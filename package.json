@@ -7,8 +7,8 @@
 	"author": "Jason Lee <jason@zerodevx.com>",
 	"bin": {
 		"delay": "cli.js"
-  },
-  "bugs": "https://github.com/zerodevx/pretty-delay-cli/issues",
+	},
+	"bugs": "https://github.com/zerodevx/pretty-delay-cli/issues",
 	"engines": {
 		"node": ">=8"
 	},
@@ -27,9 +27,9 @@
 		"suspend",
 		"execution",
 		"wait",
-    "seconds",
-    "progress",
-    "pretty"
+		"seconds",
+		"progress",
+		"pretty"
 	],
 	"dependencies": {
 		"chalk": "^2.4.2",

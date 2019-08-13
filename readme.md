@@ -4,6 +4,8 @@
 
 Similar to the [`sleep`](https://en.wikipedia.org/wiki/Sleep_(Unix)) command, but cross-platform, and looks great doing it.
 
+![pretty-delay-cli demo](https://user-images.githubusercontent.com/9677698/62963112-eb7d2400-be32-11e9-84a5-9e21e89735bf.gif)
+
 This is basically a fork of [@sindresorhus' delay-cli](https://www.npmjs.com/package/delay-cli) with colored progress bar added.
 
 
@@ -39,3 +41,9 @@ $ npm i -g pretty-delay-cli
 ## License
 
 MIT
+
+
+## Changelog
+
+**v0.1.0 - 2019-08-13:**
+* Initial fork and release.
