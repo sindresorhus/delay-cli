@@ -1,14 +1,16 @@
-# delay-cli [![Build Status](https://travis-ci.org/sindresorhus/delay-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/delay-cli)
+# pretty-delay-cli
 
-> Delay execution for a given amount of seconds
+> Delay execution for a given amount of seconds, prettily.
 
-Similar to the [`sleep`](https://en.wikipedia.org/wiki/Sleep_(Unix)) command, but cross-platform.
+Similar to the [`sleep`](https://en.wikipedia.org/wiki/Sleep_(Unix)) command, but cross-platform - and very pretty.
+
+This is just a fork of [sinresorhus' delay-cli](https://www.npmjs.com/package/delay-cli) with progress bar added.
 
 
 ## Install
 
 ```
-$ npm install --global delay-cli
+$ npm i -g pretty-delay-cli
 ```
 
 
@@ -18,10 +20,13 @@ $ npm install --global delay-cli
 $ delay --help
 
   Usage
-    $ delay <seconds>
+    $ delay <seconds> [options]
+
+  Options
+    --width, -w    Width of progress bar [default: 20]
 
   Example
-    $ delay 4.3 && echo 🦄
+    $ delay 4.3 --width=30
 ```
 
 
@@ -32,4 +37,4 @@ $ delay --help
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT
