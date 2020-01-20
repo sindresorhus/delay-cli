@@ -1,7 +1,7 @@
 {
 	"name": "pretty-delay-cli",
-	"version": "0.1.0",
-	"description": "Delay execution for a given amount of seconds, prettily.",
+	"version": "1.0.0",
+	"description": "Delay execution for a given amount of seconds, but prettily.",
 	"license": "MIT",
 	"repository": "zerodevx/pretty-delay-cli",
 	"author": "Jason Lee <jason@zerodevx.com>",
@@ -11,6 +11,31 @@
 	"bugs": "https://github.com/zerodevx/pretty-delay-cli/issues",
 	"engines": {
 		"node": ">=8"
+	},
+	"xo": {
+		"rules": {
+			"indent": "off",
+			"quotes": [
+				"error",
+				"single",
+				{
+					"allowTemplateLiterals": true
+				}
+			],
+			"radix": [
+				"error",
+				"as-needed"
+			],
+			"padding-line-between-statements": "off",
+			"no-await-in-loop": "off",
+			"unicorn/no-hex-escape": "off",
+			"unicorn/no-for-loop": "off"
+		}
+	},
+	"ava": {
+		"require": [
+			"esm"
+		]
 	},
 	"scripts": {
 		"test": "xo --space && ava"
@@ -31,15 +56,14 @@
 		"progress",
 		"pretty"
 	],
-	"dependencies": {
-		"chalk": "^2.4.2",
-		"meow": "^4.0.0",
-		"progress": "^2.0.3"
-	},
 	"devDependencies": {
-		"ava": "*",
-		"execa": "^0.10.0",
-		"time-span": "^2.0.0",
-		"xo": "^0.24.0"
+		"ava": "^3.0.0",
+		"esm": "^3.2.25",
+		"execa": "^4.0.0",
+		"time-span": "^3.1.0",
+		"xo": "^0.25.3"
+	},
+	"dependencies": {
+		"meow": "^6.0.0"
 	}
 }
