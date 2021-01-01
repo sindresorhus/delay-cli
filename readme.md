@@ -1,4 +1,4 @@
-# delay-cli [![Build Status](https://travis-ci.org/sindresorhus/delay-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/delay-cli)
+# delay-cli
 
 > Delay execution for a given amount of seconds
 
