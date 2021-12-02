@@ -33,7 +33,7 @@
 		"seconds"
 	],
 	"dependencies": {
-		"meow": "^4.0.0"
+		"meow": "^10.1.2"
 	},
 	"devDependencies": {
 		"ava": "*",
