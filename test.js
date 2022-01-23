@@ -1,5 +1,5 @@
 import test from 'ava';
-import execa from 'execa';
+import {execa} from 'execa';
 import timeSpan from 'time-span';
 
 test('main', async t => {
