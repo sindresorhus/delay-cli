@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import process from 'node:process';
+import {setTimeout as delay} from 'node:timers/promises';
 import meow from 'meow';
 
 const cli = meow(`
@@ -22,5 +23,4 @@ if (seconds === undefined) {
 	process.exit(1);
 }
 
-// TODO: Use `import {setTimeout} from 'node:timers/promises';` when targeting Node.js 16.
-setTimeout(() => {}, seconds * 1000);
+await delay(seconds * 1000);

@@ -24,4 +24,4 @@ $ delay --help
 
 ## Related
 
-- [delay](https://github.com/sindresorhus/delay) - API for this module
+- [delay](https://github.com/sindresorhus/delay) - API for this package

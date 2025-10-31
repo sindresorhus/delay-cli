@@ -4,6 +4,7 @@
 	"description": "Delay execution for a given amount of seconds",
 	"license": "MIT",
 	"repository": "sindresorhus/delay-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -14,7 +15,7 @@
 		"delay": "./cli.js"
 	},
 	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -34,12 +35,12 @@
 		"seconds"
 	],
 	"dependencies": {
-		"meow": "^10.1.2"
+		"meow": "^14.0.0"
 	},
 	"devDependencies": {
-		"ava": "^4.0.1",
-		"execa": "^6.0.0",
-		"time-span": "^5.0.0",
-		"xo": "^0.47.0"
+		"ava": "^6.4.1",
+		"execa": "^9.6.0",
+		"time-span": "^5.1.0",
+		"xo": "^1.2.3"
 	}
 }
