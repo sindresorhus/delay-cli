@@ -1,7 +1,7 @@
 {
 	"name": "delay-cli",
 	"version": "2.0.0",
-	"description": "Delay execution for a given amount of seconds",
+	"description": "Delay execution for a given duration",
 	"license": "MIT",
 	"repository": "sindresorhus/delay-cli",
 	"funding": "https://github.com/sponsors/sindresorhus",
@@ -32,10 +32,14 @@
 		"suspend",
 		"execution",
 		"wait",
-		"seconds"
+		"seconds",
+		"duration",
+		"time",
+		"timeout"
 	],
 	"dependencies": {
-		"meow": "^14.0.0"
+		"meow": "^14.0.0",
+		"parse-duration-ms": "^0.1.0"
 	},
 	"devDependencies": {
 		"ava": "^6.4.1",
